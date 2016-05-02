@@ -2,10 +2,10 @@
 
 # ne pas installer ubuntu-restricted-extras ubuntu-tweak
 
-# add repository for : getdeb
-# wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-# sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu quantal-getdeb games" >> /etc/apt/sources.list.d/getdeb.list'
-# sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu quantal-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+# Paper theme : http://www.snwh.org
+sudo add-apt-repository ppa:snwh/pulp
+sudo apt-get update
+sudo apt-get install paper-icon-theme paper-gtk-theme
 
 # pour mise à jour de backintime 1.0.10 à 1.0.24
 sudo add-apt-repository ppa:bit-team/stable
@@ -41,10 +41,6 @@ sudo add-apt-repository ppa:alexmurray/indicator-sensors
 
 #add repository for : sublime text
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
-
-#add repository for : faenza icon theme
-# sudo add-apt-repository ppa:tiheum/equinox
-# sudo add-apt-repository ppa:snwh/snwh
 
 #prise en charge lecteur en fat64 (exfat)
 sudo add-apt-repository ppa:relan/exfat
