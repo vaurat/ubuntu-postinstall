@@ -2,11 +2,6 @@
 
 # do not install ubuntu-restricted-extras ubuntu-tweak
 
-####################################################################
-# packages to install first:
-
-sudo apt-get install nfs-common backintime-gnome git preload terminator vim aptitude
-
 
 ####################################################################
 #repositories PPA 
@@ -21,7 +16,7 @@ sudo add-apt-repository ppa:bit-team/stable
 sudo add-apt-repository ppa:remmina-ppa-team/remmina-next 
 
 # for banshee 3.0 qu'on attends tous... depuis 2 ans
-sudo add-apt-repository ppa:banshee-team/ppa
+# sudo add-apt-repository ppa:banshee-team/ppa
 
 # add repository for : sublime text
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
@@ -42,22 +37,17 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update
 sudo apt-get upgrade
 
-# themes et icônes
-sudo apt-get install paper-icon-theme paper-gtk-theme
-
-sudo apt-get install sublime-text-installer
-
-# support sysfs exfat
-sudo apt-get install exfat-utils fuse-exfat
-
-# file sharing supports
-sudo apt-get install davfs2
+####################################################################
+# packages to install first:
 
 # essentiels
-sudo apt-get install build-essential vim-doc subversion gitg tig zenity unetbootin gparted most tree ncdu goaccess glogg bleachbit ccze virtualbox openjdk-7-jdk tmux oracle-java8-installer
+sudo apt-get install nfs-common backintime-gnome git terminator vim aptitude build-essential vim-doc subversion gitg tig zenity unetbootin gparted most tree ncdu goaccess glogg bleachbit ccze virtualbox tmux oracle-java8-installer exfat-utils davfs2
 
 # playing (large and slow download > 30 min)
 # sudo apt-get install 0ad wesnoth dosbox triplea
+
+# themes et icônes
+sudo apt-get install paper-icon-theme paper-gtk-theme
 
 # desktop apps in french
 sudo apt-get install gtkhash conky conky-all firefox-locale-fr skype retext meld planner dia calibre kmymoney gramps hyphen-fr libreoffice-help-fr libreoffice-l10n-fr verbiste-gnome mythes-fr python-boto python-pygoocanvas ttf-mscorefonts-installer tesseract-ocr tesseract-ocr-fra tesseract-ocr-ita filezilla klavaro focuswriter sublime-text-installer google-chrome-stable shutter
@@ -68,7 +58,7 @@ sudo apt-get install gtkhash conky conky-all firefox-locale-fr skype retext meld
 sudo apt-get install htop iftop ifstat iptraf wireshark tshark arp-scan netspeed nmap netpipe-tcp chkrootkit rkhunter remmina
 
 # multimedia supports
-sudo apt-get install avidemux v4l2ucp audacity isomaster vlc x264 ffmpeg2theora oggvideotools istanbul shotwell hugin pavucontrol darktable gimp ogmrip transmageddon guvcview wavpack mppenc faac flac vorbis-tools faad lame cheese sound-juicer picard arista milkytracker easytag radiotray banshee fotoxx phatch
+sudo apt-get install v4l2ucp audacity isomaster vlc x264 ffmpeg2theora oggvideotools hugin pavucontrol darktable gimp ogmrip transmageddon guvcview wavpack mppenc faac flac vorbis-tools faad lame cheese sound-juicer picard milkytracker easytag radiotray banshee fotoxx phatch
 
 #----------------------------------------------------------
 #ajout des repos :
