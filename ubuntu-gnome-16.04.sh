@@ -41,7 +41,7 @@ sudo apt-get upgrade
 # packages to install first:
 
 # essentiels
-sudo apt-get install nfs-common backintime-gnome git terminator vim aptitude build-essential vim-doc subversion gitg tig zenity unetbootin gparted most tree ncdu goaccess glogg bleachbit ccze virtualbox tmux oracle-java8-installer exfat-utils davfs2
+sudo apt-get install nfs-common cifs-utils backintime-gnome git terminator vim aptitude build-essential vim-doc subversion gitg tig zenity unetbootin gparted most tree ncdu goaccess glogg bleachbit ccze virtualbox tmux oracle-java8-installer exfat-utils davfs2
 
 # playing (large and slow download > 30 min)
 # sudo apt-get install 0ad wesnoth dosbox triplea
