@@ -50,7 +50,7 @@ sudo apt-get install nfs-common cifs-utils backintime-gnome git terminator vim a
 sudo apt-get install paper-icon-theme paper-gtk-theme
 
 # desktop apps in french
-sudo apt-get install gtkhash conky conky-all firefox-locale-fr skype retext meld planner dia calibre kmymoney gramps hyphen-fr libreoffice-help-fr libreoffice-l10n-fr verbiste-gnome mythes-fr python-boto python-pygoocanvas ttf-mscorefonts-installer tesseract-ocr tesseract-ocr-fra tesseract-ocr-ita filezilla klavaro focuswriter sublime-text-installer google-chrome-stable shutter
+sudo apt-get install gtkhash conky conky-all firefox-locale-fr retext meld planner dia calibre kmymoney gramps hyphen-fr libreoffice-help-fr libreoffice-l10n-fr verbiste-gnome mythes-fr python-boto python-pygoocanvas ttf-mscorefonts-installer tesseract-ocr tesseract-ocr-fra tesseract-ocr-ita filezilla klavaro focuswriter sublime-text-installer google-chrome-stable shutter
 
 # obsolete file format ?... sudo apt-get install libreoffice-filter-binfilter
 
