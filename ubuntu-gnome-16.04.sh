@@ -58,7 +58,7 @@ sudo apt-get install gtkhash conky conky-all firefox-locale-fr retext meld plann
 sudo apt-get install htop iftop ifstat iptraf wireshark tshark arp-scan netspeed nmap netpipe-tcp chkrootkit rkhunter remmina
 
 # multimedia supports
-sudo apt-get install v4l2ucp audacity isomaster vlc x264 ffmpeg2theora oggvideotools hugin pavucontrol darktable gimp ogmrip transmageddon guvcview wavpack mppenc faac flac vorbis-tools faad lame cheese sound-juicer picard milkytracker easytag radiotray banshee fotoxx phatch
+sudo apt-get install v4l2ucp audacity isomaster vlc x264 ffmpeg2theora oggvideotools hugin pavucontrol darktable gimp ogmrip transmageddon guvcview wavpack mppenc faac flac vorbis-tools faad lame cheese sound-juicer picard milkytracker easytag banshee fotoxx phatch
 
 #----------------------------------------------------------
 #ajout des repos :
