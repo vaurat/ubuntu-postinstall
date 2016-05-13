@@ -27,9 +27,10 @@ sudo add-apt-repository ppa:webupd8team/java
 # non installed (yet)... sudo apt-get install oracle-java7-installer
 # if not set : sudo update-java-alternatives -s java-7-oracle
 
-# google chrome
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.chrome.list'
+# google chrome to be installed manually as it requires a licence aggreement
+# and as the chrome deb is setting the deb line in sources.list one more time creating a duplicate entry
+# wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+# sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.chrome.list'
 
 ########################################################
 
@@ -50,7 +51,7 @@ sudo apt-get install nfs-common cifs-utils backintime-gnome git terminator vim a
 sudo apt-get install paper-icon-theme paper-gtk-theme
 
 # desktop apps in french
-sudo apt-get install gtkhash conky conky-all firefox-locale-fr retext meld planner dia calibre kmymoney gramps hyphen-fr libreoffice-help-fr libreoffice-l10n-fr verbiste-gnome mythes-fr python-boto python-pygoocanvas ttf-mscorefonts-installer tesseract-ocr tesseract-ocr-fra tesseract-ocr-ita filezilla klavaro focuswriter sublime-text-installer google-chrome-stable shutter
+sudo apt-get install gtkhash conky conky-all firefox-locale-fr retext meld planner dia calibre kmymoney gramps hyphen-fr libreoffice-help-fr libreoffice-l10n-fr verbiste-gnome mythes-fr python-boto python-pygoocanvas ttf-mscorefonts-installer tesseract-ocr tesseract-ocr-fra tesseract-ocr-ita filezilla klavaro focuswriter sublime-text-installer shutter
 
 # obsolete file format ?... sudo apt-get install libreoffice-filter-binfilter
 
