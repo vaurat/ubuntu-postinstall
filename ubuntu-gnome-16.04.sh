@@ -24,9 +24,6 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 # add repository for : Oracle Java
 sudo add-apt-repository ppa:webupd8team/java
 
-# for miro 6
-add-apt-repository ppa:pcf/miro-releases
-
 # non installed (yet)... sudo apt-get install oracle-java7-installer
 # if not set : sudo update-java-alternatives -s java-7-oracle
 
@@ -62,7 +59,7 @@ sudo apt-get install gtkhash conky conky-all firefox-locale-fr retext meld plann
 sudo apt-get install htop iftop ifstat iptraf wireshark tshark arp-scan netspeed nmap netpipe-tcp chkrootkit rkhunter remmina
 
 # multimedia supports
-sudo apt-get install v4l2ucp audacity isomaster vlc x264 ffmpeg2theora oggvideotools hugin pavucontrol darktable gimp ogmrip transmageddon guvcview wavpack mppenc faac flac vorbis-tools faad lame cheese sound-juicer picard milkytracker easytag banshee fotoxx phatch miro
+sudo apt-get install v4l2ucp audacity isomaster vlc x264 ffmpeg2theora oggvideotools hugin pavucontrol darktable gimp ogmrip transmageddon guvcview wavpack mppenc faac flac vorbis-tools faad lame cheese sound-juicer picard milkytracker easytag banshee fotoxx phatch
 
 #----------------------------------------------------------
 #ajout des repos :
