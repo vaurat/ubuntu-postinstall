@@ -49,9 +49,13 @@ sudo apt-get install nfs-common cifs-utils backintime-gnome git terminator vim a
 
 # themes et icônes
 sudo apt-get install paper-icon-theme paper-gtk-theme
+cd /tmp
+curl -sL https://github.com/nana-4/Flat-Plat/archive/v20170323.tar.gz | tar xz
+cd Flat-Plat-20170323 && sudo ./install.sh
+cd ~
 
 # desktop apps in french
-sudo apt-get install gtkhash conky conky-all firefox-locale-fr retext meld planner dia calibre kmymoney gramps hyphen-fr libreoffice-help-fr libreoffice-l10n-fr verbiste-gnome mythes-fr python-boto python-pygoocanvas ttf-mscorefonts-installer tesseract-ocr tesseract-ocr-fra tesseract-ocr-ita filezilla klavaro focuswriter sublime-text-installer shutter
+sudo apt-get install gtkhash firefox-locale-fr retext meld planner dia calibre kmymoney gramps hyphen-fr libreoffice-help-fr libreoffice-l10n-fr verbiste-gnome mythes-fr python-boto python-pygoocanvas tesseract-ocr tesseract-ocr-fra tesseract-ocr-ita filezilla klavaro focuswriter sublime-text-installer shutter
 
 # obsolete file format ?... sudo apt-get install libreoffice-filter-binfilter
 
